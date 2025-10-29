@@ -29,6 +29,7 @@ jobs:
 
       - name: Run Postman collection
         run: |
+          rm -rf newman 
           newman run "In Warranty Flow Collection Copy.postman_collection.json" \
           -e "Dev.postman_environment.json" \
           -d "testdata.csv" \
