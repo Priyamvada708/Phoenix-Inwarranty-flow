@@ -30,6 +30,7 @@ jobs:
       - name: Run Postman collection
         run: |
           rm -rf newman 
+          mkdir -p newman
           newman run "In Warranty Flow Collection Copy.postman_collection.json" \
           -e "Dev.postman_environment.json" \
           -d "testdata.csv" \
@@ -48,7 +49,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4.0.0
         with:
           github_token: ${{secrets.GITHUB_TOKEN}}
-          publish_dir: newman/
+          publish_dir: newman
    
           
           
