@@ -36,6 +36,7 @@ jobs:
           -d testdata.csv \
           -r cli,htmlextra
       - name: Newman Report
+        if: always() # its going to be executed irrespective of postman tests are passing or failing
         uses: actions/upload-artifact@v5.0.0
         with:
           name: Newman Report
