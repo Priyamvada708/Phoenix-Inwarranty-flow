@@ -29,12 +29,10 @@ jobs:
 
       - name: Run Postman collection
         run: |
-          rm -rf newman 
+          rm -rf newman
           mkdir -p newman
           newman run "In Warranty Flow Collection Copy.postman_collection.json" \
-          -e "Dev.postman_environment.json" \
-          -d "testdata.csv" \
-          -r cli,htmlextra
+          -e Dev.postman_environment.json \
           -d testdata.csv \
           -r cli,htmlextra \
           --reporter-htmlextra-export newman/index.html
