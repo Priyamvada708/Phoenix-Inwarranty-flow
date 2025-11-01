@@ -28,4 +28,5 @@ AWS
 EC2 instance for self hosted github runner
 
 ### Github Pages
-You can directly view the latest test report of the Pstman test
+You can directly view the latest test report of the Pstman test https://github.com/Priyamvada708/Phoenix-Inwarranty-flow/deployments/github-pages
+
