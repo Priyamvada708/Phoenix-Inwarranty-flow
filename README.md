@@ -31,6 +31,7 @@ EC2 instance for self hosted github runner
 ### Github Pages
 You can directly view the latest test report of the Pstman test https://github.com/Priyamvada708/Phoenix-Inwarranty-flow/deployments/github-pages
 
-!Postman Report[<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/b4348fd0-cec3-43d1-9ddc-486c6f2502c0" />
+![Postman Report](https://raw.githubusercontent.com/Priyamvada708/Phoenix-Inwarranty-flow/Static_Content/newman_report.png)
+
 
 
